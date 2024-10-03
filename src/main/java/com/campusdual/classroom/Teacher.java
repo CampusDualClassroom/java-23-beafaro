@@ -16,4 +16,9 @@ public class Teacher extends Person {
 	public void setArea(String area) {
 		this.area = area;
 	}
+
+	@Override
+	public void getDetails() {
+		System.out.println("Nombre completo: " + name + " " + surname + ", área de " + area);
+	}
 }
